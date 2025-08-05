@@ -1,0 +1,10 @@
+TestCaseID,Title,Description,Preconditions,Steps,Expected Result,Status
+TC_Checkout_01,Successful checkout,User completes checkout with valid data,Items in cart,"1. Proceed to checkout
+2. Enter shipping and payment details
+3. Submit order","Order confirmation with order number shown",Pass
+TC_Checkout_02,Invalid payment info,User enters invalid payment details,Items in cart,"1. Proceed to checkout
+2. Enter invalid payment info
+3. Submit order","Validation error on payment details",Pass
+TC_Checkout_03,Empty shipping address,User leaves shipping address empty,Items in cart,"1. Proceed to checkout
+2. Leave shipping address empty
+3. Submit order","Validation error for shipping address",Pass

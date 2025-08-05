@@ -1,0 +1,10 @@
+TestCaseID,Title,Description,Preconditions,Steps,Expected Result,Status
+TC_Reg_01,Valid registration,New user registers with valid data,None,"1. Go to registration page
+2. Fill all fields with valid data
+3. Submit form","Successful registration message shown",Pass
+TC_Reg_02,Invalid email format,User enters invalid email,None,"1. Go to registration page
+2. Enter invalid email
+3. Submit form","Validation error for email format",Pass
+TC_Reg_03,Password too short,User enters short password,None,"1. Go to registration page
+2. Enter password less than required length
+3. Submit form","Validation error for password length",Pass

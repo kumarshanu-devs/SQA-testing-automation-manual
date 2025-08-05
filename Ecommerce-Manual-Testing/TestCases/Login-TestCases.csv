@@ -1,0 +1,11 @@
+TestCaseID,Title,Description,Preconditions,Steps,Expected Result,Status
+TC_Login_01,Valid login,User logs in with valid credentials,User registered with valid credentials,"1. Go to login page
+2. Enter valid username and password
+3. Click login","User redirected to dashboard",Pass
+TC_Login_02,Invalid login with wrong password,User tries to login with wrong password,User registered with valid credentials,"1. Go to login page
+2. Enter valid username and wrong password
+3. Click login","Error message 'Invalid username or password' shown",Pass
+TC_Login_03,Empty username,User tries to login without username,"None","1. Go to login page
+2. Leave username empty
+3. Enter any password
+4. Click login","Validation error 'Username is required' shown",Fail

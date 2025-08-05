@@ -1,0 +1,8 @@
+TestCaseID,Title,Description,Preconditions,Steps,Expected Result,Status
+TC_Cart_01,Add product to cart,User adds product to cart,Product available,"1. Navigate to product page
+2. Click 'Add to cart'","Product added to cart and visible in cart",Pass
+TC_Cart_02,Remove product from cart,User removes product from cart,Product added to cart,"1. Go to cart page
+2. Click 'Remove' on a product","Product removed and cart updates",Pass
+TC_Cart_03,Update quantity,User updates product quantity in cart,Product added to cart,"1. Go to cart page
+2. Change quantity value
+3. Update cart","Quantity updated and price recalculated",Pass
